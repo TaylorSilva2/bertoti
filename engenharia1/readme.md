@@ -1,6 +1,6 @@
 atividade 5:
 
-public class Hospede {
+```public class Hospede {
     private String nome;
     private String documento;
 
@@ -20,9 +20,10 @@ public class Hospede {
     public String toString() {
         return "Hóspede: " + nome + " | Documento: " + documento;
     }
-}.
-import java.util.ArrayList;
-hotel
+}```
+
+```import java.util.ArrayList;
+
 public class Hotel {
     private ArrayList<Hospede> hospedes;
 
@@ -53,7 +54,7 @@ public class Hotel {
         }
     }
 }
-teste
+```
 public class TesteHotel {
     public static void main(String[] args) {
         Hotel hotel = new Hotel();
@@ -73,3 +74,4 @@ public class TesteHotel {
         hotel.listarHospedes();
     }
 }
+```
