@@ -1,4 +1,5 @@
 atividade 5 
+hospedes
 public class Hospede {
     private String nome;
     private String documento;
@@ -21,7 +22,7 @@ public class Hospede {
     }
 }.
 import java.util.ArrayList;
-
+hotel
 public class Hotel {
     private ArrayList<Hospede> hospedes;
 
@@ -52,6 +53,7 @@ public class Hotel {
         }
     }
 }
+teste
 public class TesteHotel {
     public static void main(String[] args) {
         Hotel hotel = new Hotel();
