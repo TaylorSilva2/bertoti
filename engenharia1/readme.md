@@ -1,5 +1,5 @@
-atividade 5 
-hospedes
+atividade 5:
+
 public class Hospede {
     private String nome;
     private String documento;
